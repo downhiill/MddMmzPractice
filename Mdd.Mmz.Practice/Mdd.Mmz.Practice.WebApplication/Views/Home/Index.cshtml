@@ -1,0 +1,34 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div id="test"></div>
+<input type="button" id="btn" value ="КЧАУ!" width = "250px">
+
+<script>
+function append(element_id)
+{
+        this.el = document.getElementById(element_id);
+       
+        this.img = function(src)
+        {
+                var _img = document.createElement('img');
+                _img.src = 'images/8BD.gif';
+               
+                this.el.appendChild(_img);
+        };
+       
+        return this;
+}
+       
+                 
+window.onload = function()
+{
+        var btn = document.getElementById('btn');
+ 
+        btn.onclick = function()
+        {      
+                append('test').img('8BD.gif');
+        }
+}
+</script>

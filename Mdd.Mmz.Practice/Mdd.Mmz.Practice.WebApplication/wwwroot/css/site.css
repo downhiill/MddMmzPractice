@@ -1,0 +1,30 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background-color: #f9faf7;
+}
+
+
+#viewButton {
+    background: url(../images/icon_reset.png) no-repeat top right;
+    height: 26px;
+}
+
+#searchText {
+ margin-right: 20px;
+}
+

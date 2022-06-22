@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.Sqlite" Version="6.0.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Mdd.Mmz.Practice.Core\Mdd.Mmz.Practice.Core.csproj" />
+    <ProjectReference Include="..\Mdd.Mmz.Practice.Infrastructure\Mdd.Mmz.Practice.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

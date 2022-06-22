@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "dWlIB0Yyn/osz2LhKjN98kyvd6kECOTF8UqyqPpE7HEY+V9HetXgAL+NdZiFtt57uKV/AGMgt1rUQz1GUtfYJg==",
+  "success": true,
+  "projectFilePath": "D:\\Mdd.Mmz.Practice\\Mdd.Mmz.Practice.Core\\Mdd.Mmz.Practice.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\make0ver\\.nuget\\packages\\microsoft.data.sqlite\\6.0.5\\microsoft.data.sqlite.6.0.5.nupkg.sha512",
+    "C:\\Users\\make0ver\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.5\\microsoft.data.sqlite.core.6.0.5.nupkg.sha512",
+    "C:\\Users\\make0ver\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\make0ver\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\make0ver\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.0.6\\sqlitepclraw.bundle_e_sqlite3.2.0.6.nupkg.sha512",
+    "C:\\Users\\make0ver\\.nuget\\packages\\sqlitepclraw.core\\2.0.6\\sqlitepclraw.core.2.0.6.nupkg.sha512",
+    "C:\\Users\\make0ver\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.0.6\\sqlitepclraw.lib.e_sqlite3.2.0.6.nupkg.sha512",
+    "C:\\Users\\make0ver\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.0.6\\sqlitepclraw.provider.e_sqlite3.2.0.6.nupkg.sha512",
+    "C:\\Users\\make0ver\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
+    "C:\\Users\\make0ver\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\make0ver\\.nuget\\packages\\system.numerics.vectors\\4.4.0\\system.numerics.vectors.4.4.0.nupkg.sha512",
+    "C:\\Users\\make0ver\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512"
+  ],
+  "logs": []
+}
