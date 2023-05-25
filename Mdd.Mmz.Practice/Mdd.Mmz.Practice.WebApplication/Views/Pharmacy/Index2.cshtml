@@ -1,4 +1,81 @@
 ﻿@{
-    ViewData["Title"] = "Pharmacy";
+    ViewData["Title"] = "Private Acccount";
 }
+
+<div id="PrivateInfo">
+    <div id="imageFeatures">
+        <img src="~/images/8BD.gif" width="210" height="270 border-radius:10px;" />
+    </div>
+    @if (User.IsInRole("Admin"))
+    {
+        <div id="FieldInput">
+            <label style="">Статус/Должность</label>
+            <br />
+            <input type="text" value="Директор" id="statusPost" style="padding-top: 10px;border-radius: 30px;box-sizing: border-box;padding: 20px;padding: 10px;font-size: 15px; :115px;" readonly>
+            <br />
+            <label>Стаж/Год обучения</label>
+            <br />
+            <input type="text" value="9 лет" id="lengthOfServiceYearOfStudy" style="padding-top: 10px;border-radius: 30px;box-sizing: border-box;padding: 20px;padding: 10px;font-size: 15px;" readonly>
+            <br />
+            <label>Образование</label>
+            <br />
+            <input type="text" value="1-я квалиф.категория" id="education" style="padding-top: 10px;border-radius: 30px;box-sizing: border-box;padding: 20px;padding: 10px;font-size: 15px;" readonly>
+            <br />
+            <label>Возраст</label>
+            <br />
+            <input type="text" value="52 года" id="age" style="padding-top: 10px;border-radius: 30px;box-sizing: border-box;padding: 20px;padding: 10px;font-size: 15px; " readonly>
+        </div>
+    }
+    else if (User.IsInRole("User"))
+    {
+        <div id="FieldInput">
+            <label>Статус/Должность</label>
+            <br />
+            <input type="text" placeholder="Студент" id="statusPost" style="padding-top: 10px;border-radius: 30px;box-sizing: border-box;padding: 20px;padding: 10px;font-size: 15px;" readonly>
+            <br />
+            <label>Стаж/Год обучения</label>
+            <br />
+            <input type="text" placeholder="3 курс" id="lengthOfServiceYearOfStudy" style="padding-top: 10px;border-radius: 30px;box-sizing: border-box;padding: 20px;padding: 10px;font-size: 15px;" readonly>
+            <br />
+            <label>Образование</label>
+            <br />
+            <input type="text" placeholder="Среднее полное" id="education" style="padding-top: 10px;border-radius: 30px;box-sizing: border-box;padding: 20px;padding: 10px;font-size: 15px;" readonly>
+            <br />
+            <label>Возраст</label>
+            <br />
+            <input type="text" placeholder="21 год" id="age" style="padding-top: 10px;border-radius: 30px;box-sizing: border-box;padding: 20px;padding: 10px;font-size: 15px;" readonly>
+        </div>
+    }
+    
+
+</div>
+
+<div><hr /></div>
+
+<div class="text-center">
+
+    <h1 class="display-4">Events</h1>
+    @*<button type="button" class="btn" id ="viewButton"></button>*@
+    <input type="text" class="" id="searchText" placeholder="Search" aria-label="Search" name ="search" onkeyup="tableSearch()"/>   
+        <table class="table table-hover" id="peopleTable">
+            <thead>
+                <tr>
+                    <th scope="col">Id</th>
+                    <th scope="col">Score</th>
+                    <th scope="col">Name Events</th>
+                    <th scope="col">Status</th>
+                    <th scope="col">Country and City</th>
+                    <th scope="col"></th>
+                </tr>
+            </thead>
+            <tbody>   
+            </tbody>
+        </table>     
+</div>
+
+
+
+
+
+
 

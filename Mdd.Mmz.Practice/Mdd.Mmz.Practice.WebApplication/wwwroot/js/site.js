@@ -5,6 +5,7 @@
 
 
 $(document).ready(function () {
+    var userRole = '@User.FindFirst(ClaimTypes.Role)?.Value';
     $('#addButton').click(() => openEdit(new Person()));
     $("#peopleTable").on("click", ".ibtnEdit", function (event) { edit(this); });
     $("#peopleTable").on("click", ".ibtnDel", function (event) { openDelete(this); });
@@ -18,23 +19,23 @@ $(document).ready(function () {
 
     get();
 
+    
 });
 
 
 function Person() {
     this.id;
-    this.age;
-    this.phone;
-    this.name;
-    this.city;
-    this.country;
+    this.score;
+    this.nameEvents;
+    this.status;
+    this.countryAndCity;
 }
 
 
 function get() {
     $.ajax({
         type: "GET",
-        url: "People/Get",
+        url: "Get",
         dataType: "json",
         success: (data) => {
             if (data.error) {
@@ -60,11 +61,10 @@ function addRow(i) {
     let cols = "";
 
     cols += '<td>' + i.id + '</td>';
-    cols += '<td>' + i.age + '</td>'
-    cols += '<td>' + i.phone + '</td>'
-    cols += '<td>' + i.name + '</td>'
-    cols += '<td>' + i.country + '</td>'
-    cols += '<td>' + i.city + '</td>'
+    cols += '<td>' + i.score + '</td>'
+    cols += '<td>' + i.nameEvents + '</td>'
+    cols += '<td>' + i.status + '</td>'
+    cols += '<td>' + i.countryAndCity + '</td>'
 
     var button1 = '<input type="button" class="ibtnEdit btn btn-dark" data=' + i.id + ' value="Edit">';
     var button2 = '<input type="button" class="ibtnDel btn btn-dark" data=' + i.id + ' value="Delete">';
@@ -78,6 +78,7 @@ function addRow(i) {
 
 
 function openEdit(person) {
+
     setEdit(person);
 
     bootstrap.Modal.getOrCreateInstance($('#editModal')).show();
@@ -109,11 +110,10 @@ function openError() {
 
 function setEdit(person) {
     $("input[name='id']").val(person.id);
-    $("input[name='name']").val(person.name);
-    $("input[name='age']").val(person.age);
-    $("input[name='phone']").val(person.phone);
-    $("input[name='country']").val(person.country);
-    $("input[name='city']").val(person.city);
+    $("input[name='nameEvents']").val(person.nameEvents);
+    $("input[name='score']").val(person.score);
+    $("input[name='status']").val(person.status);
+    $("input[name='countryAndCity']").val(person.countryAndCity);
 }
 
 function save() {
@@ -121,15 +121,14 @@ function save() {
     let person = new Person();
 
     person.id = $("input[name='id']").val();
-    person.age = $("input[name='age']").val();
-    person.phone = $("input[name='phone']").val();
-    person.name = $("input[name='name']").val();
-    person.country = $("input[name='country']").val();
-    person.city = $("input[name='city']").val();
+    person.score = $("input[name='score']").val();
+    person.nameEvents = $("input[name='nameEvents']").val();
+    person.status = $("input[name='status']").val();
+    person.countryAndCity = $("input[name='countryAndCity']").val();
 
     $.ajax({
         type: "POST",
-        url: "People/Save",
+        url: "Save",
         dataType: "json",
         data: person,
         success: (data) => {
@@ -151,7 +150,7 @@ function edit(e) {
 
     $.ajax({
         type: "GET",
-        url: "People/GetById",
+        url: "GetById",
         dataType: "json",
         data: { personId: id },
         success: (data) => {
@@ -170,7 +169,7 @@ function del(id) {
 
     $.ajax({
         type: "DELETE",
-        url: "People/Delete",
+        url: "Delete",
         dataType: "json",
         data: { id: id },
         success: (data) => {

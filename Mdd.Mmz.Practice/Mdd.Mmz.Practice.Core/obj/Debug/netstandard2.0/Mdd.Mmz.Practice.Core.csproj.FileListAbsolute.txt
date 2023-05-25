@@ -18,3 +18,13 @@ D:\Mdd.Mmz.Practice\Mdd.Mmz.Practice.Core\obj\Debug\netstandard2.0\Mdd.Mmz.Pract
 D:\Mdd.Mmz.Practice\Mdd.Mmz.Practice.Core\obj\Debug\netstandard2.0\Mdd.Mmz.Practice.Core.csproj.CoreCompileInputs.cache
 D:\Mdd.Mmz.Practice\Mdd.Mmz.Practice.Core\obj\Debug\netstandard2.0\Mdd.Mmz.Practice.Core.dll
 D:\Mdd.Mmz.Practice\Mdd.Mmz.Practice.Core\obj\Debug\netstandard2.0\Mdd.Mmz.Practice.Core.pdb
+C:\Users\make0ver\Source\Repos\MddMmzPractice\Mdd.Mmz.Practice\Mdd.Mmz.Practice.Core\bin\Debug\netstandard2.0\Mdd.Mmz.Practice.Core.deps.json
+C:\Users\make0ver\Source\Repos\MddMmzPractice\Mdd.Mmz.Practice\Mdd.Mmz.Practice.Core\bin\Debug\netstandard2.0\Mdd.Mmz.Practice.Core.dll
+C:\Users\make0ver\Source\Repos\MddMmzPractice\Mdd.Mmz.Practice\Mdd.Mmz.Practice.Core\bin\Debug\netstandard2.0\Mdd.Mmz.Practice.Core.pdb
+C:\Users\make0ver\Source\Repos\MddMmzPractice\Mdd.Mmz.Practice\Mdd.Mmz.Practice.Core\obj\Debug\netstandard2.0\Mdd.Mmz.Practice.Core.csproj.AssemblyReference.cache
+C:\Users\make0ver\Source\Repos\MddMmzPractice\Mdd.Mmz.Practice\Mdd.Mmz.Practice.Core\obj\Debug\netstandard2.0\Mdd.Mmz.Practice.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\make0ver\Source\Repos\MddMmzPractice\Mdd.Mmz.Practice\Mdd.Mmz.Practice.Core\obj\Debug\netstandard2.0\Mdd.Mmz.Practice.Core.AssemblyInfoInputs.cache
+C:\Users\make0ver\Source\Repos\MddMmzPractice\Mdd.Mmz.Practice\Mdd.Mmz.Practice.Core\obj\Debug\netstandard2.0\Mdd.Mmz.Practice.Core.AssemblyInfo.cs
+C:\Users\make0ver\Source\Repos\MddMmzPractice\Mdd.Mmz.Practice\Mdd.Mmz.Practice.Core\obj\Debug\netstandard2.0\Mdd.Mmz.Practice.Core.csproj.CoreCompileInputs.cache
+C:\Users\make0ver\Source\Repos\MddMmzPractice\Mdd.Mmz.Practice\Mdd.Mmz.Practice.Core\obj\Debug\netstandard2.0\Mdd.Mmz.Practice.Core.dll
+C:\Users\make0ver\Source\Repos\MddMmzPractice\Mdd.Mmz.Practice\Mdd.Mmz.Practice.Core\obj\Debug\netstandard2.0\Mdd.Mmz.Practice.Core.pdb

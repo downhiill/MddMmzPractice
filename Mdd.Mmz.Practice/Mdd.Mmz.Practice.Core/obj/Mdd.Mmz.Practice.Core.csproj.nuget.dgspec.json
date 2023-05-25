@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Mdd.Mmz.Practice\\Mdd.Mmz.Practice.Core\\Mdd.Mmz.Practice.Core.csproj": {}
+    "C:\\Users\\make0ver\\source\\repos\\MddMmzPractice\\Mdd.Mmz.Practice\\Mdd.Mmz.Practice.Core\\Mdd.Mmz.Practice.Core.csproj": {}
   },
   "projects": {
-    "D:\\Mdd.Mmz.Practice\\Mdd.Mmz.Practice.Core\\Mdd.Mmz.Practice.Core.csproj": {
+    "C:\\Users\\make0ver\\source\\repos\\MddMmzPractice\\Mdd.Mmz.Practice\\Mdd.Mmz.Practice.Core\\Mdd.Mmz.Practice.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Mdd.Mmz.Practice\\Mdd.Mmz.Practice.Core\\Mdd.Mmz.Practice.Core.csproj",
+        "projectUniqueName": "C:\\Users\\make0ver\\source\\repos\\MddMmzPractice\\Mdd.Mmz.Practice\\Mdd.Mmz.Practice.Core\\Mdd.Mmz.Practice.Core.csproj",
         "projectName": "Mdd.Mmz.Practice.Core",
-        "projectPath": "D:\\Mdd.Mmz.Practice\\Mdd.Mmz.Practice.Core\\Mdd.Mmz.Practice.Core.csproj",
+        "projectPath": "C:\\Users\\make0ver\\source\\repos\\MddMmzPractice\\Mdd.Mmz.Practice\\Mdd.Mmz.Practice.Core\\Mdd.Mmz.Practice.Core.csproj",
         "packagesPath": "C:\\Users\\make0ver\\.nuget\\packages\\",
-        "outputPath": "D:\\Mdd.Mmz.Practice\\Mdd.Mmz.Practice.Core\\obj\\",
+        "outputPath": "C:\\Users\\make0ver\\source\\repos\\MddMmzPractice\\Mdd.Mmz.Practice\\Mdd.Mmz.Practice.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\make0ver\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -49,6 +49,10 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             }
           },
           "imports": [
@@ -57,11 +61,12 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

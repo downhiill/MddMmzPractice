@@ -44,11 +44,10 @@ namespace Mdd.Mmz.Practice.Infrastructure
                         new Person
                         {
                             Id = Convert.ToInt32(row[0]),
-                            Age = Convert.ToInt32(row[1]),
-                            Phone = Convert.ToInt32(row[2]),
-                            Name = Convert.ToString(row[3]),
-                            City = Convert.ToString(row[4]),
-                            Country = Convert.ToString(row[5])
+                            Score = Convert.ToInt32(row[1]),
+                            NameEvents = Convert.ToString(row[2]),
+                            Status = Convert.ToString(row[3]),
+                            CountryAndCity = Convert.ToString(row[4])
                         }
                     )
                     .ToList()
@@ -99,11 +98,10 @@ namespace Mdd.Mmz.Practice.Infrastructure
                 {
                     reader.Read();
                     data.Id = reader.GetInt32(0);
-                    data.Age = reader.GetInt32(1);
-                    data.Phone = reader.GetInt32(2);
-                    data.Name = reader.GetString(3);
-                    data.Country = reader.GetString(4);
-                    data.City = reader.GetString(5);
+                    data.Score = reader.GetInt32(1);
+                    data.NameEvents = reader.GetString(2);
+                    data.Status = reader.GetString(3);
+                    data.CountryAndCity = reader.GetString(4);
 
                 }
 

@@ -24,3 +24,16 @@ D:\Mdd.Mmz.Practice\Mdd.Mmz.Practice.Infrastructure\obj\Debug\netstandard2.0\Mdd
 D:\Mdd.Mmz.Practice\Mdd.Mmz.Practice.Infrastructure\obj\Debug\netstandard2.0\Mdd.Mmz.Practice.Infrastructure.csproj.CopyComplete
 D:\Mdd.Mmz.Practice\Mdd.Mmz.Practice.Infrastructure\obj\Debug\netstandard2.0\Mdd.Mmz.Practice.Infrastructure.dll
 D:\Mdd.Mmz.Practice\Mdd.Mmz.Practice.Infrastructure\obj\Debug\netstandard2.0\Mdd.Mmz.Practice.Infrastructure.pdb
+C:\Users\make0ver\Source\Repos\MddMmzPractice\Mdd.Mmz.Practice\Mdd.Mmz.Practice.Infrastructure\bin\Debug\netstandard2.0\Mdd.Mmz.Practice.Infrastructure.deps.json
+C:\Users\make0ver\Source\Repos\MddMmzPractice\Mdd.Mmz.Practice\Mdd.Mmz.Practice.Infrastructure\bin\Debug\netstandard2.0\Mdd.Mmz.Practice.Infrastructure.dll
+C:\Users\make0ver\Source\Repos\MddMmzPractice\Mdd.Mmz.Practice\Mdd.Mmz.Practice.Infrastructure\bin\Debug\netstandard2.0\Mdd.Mmz.Practice.Infrastructure.pdb
+C:\Users\make0ver\Source\Repos\MddMmzPractice\Mdd.Mmz.Practice\Mdd.Mmz.Practice.Infrastructure\bin\Debug\netstandard2.0\Mdd.Mmz.Practice.Core.dll
+C:\Users\make0ver\Source\Repos\MddMmzPractice\Mdd.Mmz.Practice\Mdd.Mmz.Practice.Infrastructure\bin\Debug\netstandard2.0\Mdd.Mmz.Practice.Core.pdb
+C:\Users\make0ver\Source\Repos\MddMmzPractice\Mdd.Mmz.Practice\Mdd.Mmz.Practice.Infrastructure\obj\Debug\netstandard2.0\Mdd.Mmz.Practice.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\make0ver\Source\Repos\MddMmzPractice\Mdd.Mmz.Practice\Mdd.Mmz.Practice.Infrastructure\obj\Debug\netstandard2.0\Mdd.Mmz.Practice.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\make0ver\Source\Repos\MddMmzPractice\Mdd.Mmz.Practice\Mdd.Mmz.Practice.Infrastructure\obj\Debug\netstandard2.0\Mdd.Mmz.Practice.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\make0ver\Source\Repos\MddMmzPractice\Mdd.Mmz.Practice\Mdd.Mmz.Practice.Infrastructure\obj\Debug\netstandard2.0\Mdd.Mmz.Practice.Infrastructure.AssemblyInfo.cs
+C:\Users\make0ver\Source\Repos\MddMmzPractice\Mdd.Mmz.Practice\Mdd.Mmz.Practice.Infrastructure\obj\Debug\netstandard2.0\Mdd.Mmz.Practice.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\make0ver\Source\Repos\MddMmzPractice\Mdd.Mmz.Practice\Mdd.Mmz.Practice.Infrastructure\obj\Debug\netstandard2.0\Mdd.Mmz.Practice.Infrastructure.csproj.CopyComplete
+C:\Users\make0ver\Source\Repos\MddMmzPractice\Mdd.Mmz.Practice\Mdd.Mmz.Practice.Infrastructure\obj\Debug\netstandard2.0\Mdd.Mmz.Practice.Infrastructure.dll
+C:\Users\make0ver\Source\Repos\MddMmzPractice\Mdd.Mmz.Practice\Mdd.Mmz.Practice.Infrastructure\obj\Debug\netstandard2.0\Mdd.Mmz.Practice.Infrastructure.pdb

@@ -1,13 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "dWlIB0Yyn/osz2LhKjN98kyvd6kECOTF8UqyqPpE7HEY+V9HetXgAL+NdZiFtt57uKV/AGMgt1rUQz1GUtfYJg==",
+  "dgSpecHash": "YiOPF8hl5xyFc+1hYSdLsgVLnn3pdPwnmA9t+iPVQfosn4pUd5bwGtVpX/oHKuquQXtzF7n4XRTKzCEgaPMzMQ==",
   "success": true,
-  "projectFilePath": "D:\\Mdd.Mmz.Practice\\Mdd.Mmz.Practice.Core\\Mdd.Mmz.Practice.Core.csproj",
+  "projectFilePath": "C:\\Users\\make0ver\\source\\repos\\MddMmzPractice\\Mdd.Mmz.Practice\\Mdd.Mmz.Practice.Core\\Mdd.Mmz.Practice.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\make0ver\\.nuget\\packages\\microsoft.data.sqlite\\6.0.5\\microsoft.data.sqlite.6.0.5.nupkg.sha512",
     "C:\\Users\\make0ver\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.5\\microsoft.data.sqlite.core.6.0.5.nupkg.sha512",
     "C:\\Users\\make0ver\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\make0ver\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\make0ver\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\make0ver\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.0.6\\sqlitepclraw.bundle_e_sqlite3.2.0.6.nupkg.sha512",
     "C:\\Users\\make0ver\\.nuget\\packages\\sqlitepclraw.core\\2.0.6\\sqlitepclraw.core.2.0.6.nupkg.sha512",
     "C:\\Users\\make0ver\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.0.6\\sqlitepclraw.lib.e_sqlite3.2.0.6.nupkg.sha512",

@@ -21,10 +21,14 @@
           "SQLitePCLRaw.core": "2.0.6"
         },
         "compile": {
-          "lib/netstandard2.0/Microsoft.Data.Sqlite.dll": {}
+          "lib/netstandard2.0/Microsoft.Data.Sqlite.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Data.Sqlite.dll": {}
+          "lib/netstandard2.0/Microsoft.Data.Sqlite.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Microsoft.NETCore.Platforms/1.1.0": {
@@ -51,13 +55,17 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
-      "Newtonsoft.Json/13.0.1": {
+      "Newtonsoft.Json/13.0.3": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         }
       },
       "SQLitePCLRaw.bundle_e_sqlite3/2.0.6": {
@@ -172,10 +180,14 @@
       "System.Buffers/4.4.0": {
         "type": "package",
         "compile": {
-          "ref/netstandard2.0/System.Buffers.dll": {}
+          "ref/netstandard2.0/System.Buffers.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/System.Buffers.dll": {}
+          "lib/netstandard2.0/System.Buffers.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Data.DataSetExtensions/4.5.0": {
@@ -195,35 +207,48 @@
           "System.Runtime.CompilerServices.Unsafe": "4.5.2"
         },
         "compile": {
-          "lib/netstandard2.0/System.Memory.dll": {}
+          "lib/netstandard2.0/System.Memory.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/System.Memory.dll": {}
+          "lib/netstandard2.0/System.Memory.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Numerics.Vectors/4.4.0": {
         "type": "package",
         "compile": {
-          "ref/netstandard2.0/System.Numerics.Vectors.dll": {}
+          "ref/netstandard2.0/System.Numerics.Vectors.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/System.Numerics.Vectors.dll": {}
+          "lib/netstandard2.0/System.Numerics.Vectors.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Runtime.CompilerServices.Unsafe/4.5.2": {
         "type": "package",
         "compile": {
-          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Mdd.Mmz.Practice.Core/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Microsoft.Data.Sqlite": "6.0.5"
+          "Microsoft.Data.Sqlite": "6.0.5",
+          "Newtonsoft.Json": "13.0.3"
         },
         "compile": {
           "bin/placeholder/Mdd.Mmz.Practice.Core.dll": {}
@@ -408,14 +433,15 @@
         "netstandard.library.nuspec"
       ]
     },
-    "Newtonsoft.Json/13.0.1": {
-      "sha512": "ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+    "Newtonsoft.Json/13.0.3": {
+      "sha512": "HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
       "type": "package",
-      "path": "newtonsoft.json/13.0.1",
+      "path": "newtonsoft.json/13.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.md",
+        "README.md",
         "lib/net20/Newtonsoft.Json.dll",
         "lib/net20/Newtonsoft.Json.xml",
         "lib/net35/Newtonsoft.Json.dll",
@@ -424,13 +450,15 @@
         "lib/net40/Newtonsoft.Json.xml",
         "lib/net45/Newtonsoft.Json.dll",
         "lib/net45/Newtonsoft.Json.xml",
+        "lib/net6.0/Newtonsoft.Json.dll",
+        "lib/net6.0/Newtonsoft.Json.xml",
         "lib/netstandard1.0/Newtonsoft.Json.dll",
         "lib/netstandard1.0/Newtonsoft.Json.xml",
         "lib/netstandard1.3/Newtonsoft.Json.dll",
         "lib/netstandard1.3/Newtonsoft.Json.xml",
         "lib/netstandard2.0/Newtonsoft.Json.dll",
         "lib/netstandard2.0/Newtonsoft.Json.xml",
-        "newtonsoft.json.13.0.1.nupkg.sha512",
+        "newtonsoft.json.13.0.3.nupkg.sha512",
         "newtonsoft.json.nuspec",
         "packageIcon.png"
       ]
@@ -653,7 +681,7 @@
       "Mdd.Mmz.Practice.Core >= 1.0.0",
       "Microsoft.Data.Sqlite >= 6.0.5",
       "NETStandard.Library >= 2.0.3",
-      "Newtonsoft.Json >= 13.0.1",
+      "Newtonsoft.Json >= 13.0.3",
       "System.Data.DataSetExtensions >= 4.5.0"
     ]
   },
@@ -663,11 +691,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Mdd.Mmz.Practice\\Mdd.Mmz.Practice.Infrastructure\\Mdd.Mmz.Practice.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\make0ver\\source\\repos\\MddMmzPractice\\Mdd.Mmz.Practice\\Mdd.Mmz.Practice.Infrastructure\\Mdd.Mmz.Practice.Infrastructure.csproj",
       "projectName": "Mdd.Mmz.Practice.Infrastructure",
-      "projectPath": "D:\\Mdd.Mmz.Practice\\Mdd.Mmz.Practice.Infrastructure\\Mdd.Mmz.Practice.Infrastructure.csproj",
+      "projectPath": "C:\\Users\\make0ver\\source\\repos\\MddMmzPractice\\Mdd.Mmz.Practice\\Mdd.Mmz.Practice.Infrastructure\\Mdd.Mmz.Practice.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\make0ver\\.nuget\\packages\\",
-      "outputPath": "D:\\Mdd.Mmz.Practice\\Mdd.Mmz.Practice.Infrastructure\\obj\\",
+      "outputPath": "C:\\Users\\make0ver\\source\\repos\\MddMmzPractice\\Mdd.Mmz.Practice\\Mdd.Mmz.Practice.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\make0ver\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -684,8 +712,8 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "projectReferences": {
-            "D:\\Mdd.Mmz.Practice\\Mdd.Mmz.Practice.Core\\Mdd.Mmz.Practice.Core.csproj": {
-              "projectPath": "D:\\Mdd.Mmz.Practice\\Mdd.Mmz.Practice.Core\\Mdd.Mmz.Practice.Core.csproj"
+            "C:\\Users\\make0ver\\source\\repos\\MddMmzPractice\\Mdd.Mmz.Practice\\Mdd.Mmz.Practice.Core\\Mdd.Mmz.Practice.Core.csproj": {
+              "projectPath": "C:\\Users\\make0ver\\source\\repos\\MddMmzPractice\\Mdd.Mmz.Practice\\Mdd.Mmz.Practice.Core\\Mdd.Mmz.Practice.Core.csproj"
             }
           }
         }
@@ -712,7 +740,7 @@
           },
           "Newtonsoft.Json": {
             "target": "Package",
-            "version": "[13.0.1, )"
+            "version": "[13.0.3, )"
           },
           "System.Data.DataSetExtensions": {
             "target": "Package",
@@ -725,11 +753,12 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

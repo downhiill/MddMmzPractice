@@ -4,6 +4,8 @@ using System.Diagnostics;
 using Mdd.Mmz.Practice.WebApplication.Models;
 using Mdd.Mmz.Practice.Core;
 using Mdd.Mmz.Practice.Infrastructure;
+using System.Security.Claims;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Mdd.Mmz.Practice.WebApplication.Controllers
 {
@@ -25,6 +27,7 @@ namespace Mdd.Mmz.Practice.WebApplication.Controllers
             return View();
 
         }
+        [Authorize(Roles = "Admin,User")]
         public JsonResult Get()
         {
             try
@@ -40,7 +43,7 @@ namespace Mdd.Mmz.Practice.WebApplication.Controllers
             }
             
         }
-
+        [Authorize(Roles = "Admin")]
         public JsonResult GetById(int personId)
         {
             try
@@ -56,6 +59,7 @@ namespace Mdd.Mmz.Practice.WebApplication.Controllers
             }      
 
         }
+        [Authorize(Roles = "Admin")]
         public JsonResult Save(Person person)
         {
             try
@@ -71,6 +75,7 @@ namespace Mdd.Mmz.Practice.WebApplication.Controllers
             }
 
         }
+        [Authorize(Roles = "Admin")]
         public JsonResult Delete(Person person)
         {
             try

@@ -1,16 +1,17 @@
+
 html {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+    }
 }
 
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
 
 body {
@@ -25,6 +26,19 @@ body {
 }
 
 #searchText {
- margin-right: 20px;
+    margin-right: 20px;
 }
 
+#imageFeatures {
+    width: 200px;
+    height: 200px;
+}
+
+#PrivateInfo {
+    display: flex;
+    margin-left: 80px;
+}
+
+#FieldInput {
+    margin-left: 50px;
+}

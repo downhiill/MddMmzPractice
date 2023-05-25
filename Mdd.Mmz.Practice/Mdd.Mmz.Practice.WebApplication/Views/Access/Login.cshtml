@@ -1,0 +1,40 @@
+﻿@model Mdd.Mmz.Practice.WebApplication.Models.VMLogin;
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Login</title>
+</head>
+<body>
+    <form asp-controller="Access" asp-action="Login" method="post" style="margin-top:13%;">
+        <label style="padding-right: 105px;padding-bottom: 5px;font-size: 40px; margin-top:30%;margin-left:48%;margin-top:20%;margin-bottom:5%;">Login</label>
+        <br />
+        <input type="email" placeholder="Email" asp-for="Email" style="padding-top: 10px;border-radius: 30px;box-sizing: border-box;padding: 20px;padding: 10px;font-size: 15px;margin-bottom:2%;margin-left:45%;margin-top:10px;" />
+        <br />
+        <input type="password" placeholder="Password" asp-for="Password" style="border-radius: 30px;box-sizing: border-box;padding: 20px;padding: 10px;font-size: 15px;margin-left:45%;margin-bottom:5px; " />
+        <br />
+        <label style="padding-right: 105px;font-size: 20px;margin-left:45%;">
+            <input type="checkbox" asp-for="KeepLoggedIn" style="" />
+            Keep me logged In.
+        </label>
+        <br />
+        <button type="submit" style="border-radius: 20px;font-size: 20px;margin-left:49%;margin-bottom:4% ">
+            Login
+        </button>
+
+        @if (ViewData["ValidateMessage"] != null)
+        {
+            <br />
+            <br />
+            <label>@ViewData["ValidateMessage"]</label>
+
+        }
+
+    </form>
+</body>
+</html>

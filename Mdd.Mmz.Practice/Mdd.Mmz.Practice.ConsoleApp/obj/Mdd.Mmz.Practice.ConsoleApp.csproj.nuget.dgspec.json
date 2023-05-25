@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Mdd.Mmz.Practice\\Mdd.Mmz.Practice.ConsoleApp\\Mdd.Mmz.Practice.ConsoleApp.csproj": {}
+    "C:\\Users\\make0ver\\source\\repos\\MddMmzPractice\\Mdd.Mmz.Practice\\Mdd.Mmz.Practice.ConsoleApp\\Mdd.Mmz.Practice.ConsoleApp.csproj": {}
   },
   "projects": {
-    "D:\\Mdd.Mmz.Practice\\Mdd.Mmz.Practice.ConsoleApp\\Mdd.Mmz.Practice.ConsoleApp.csproj": {
+    "C:\\Users\\make0ver\\source\\repos\\MddMmzPractice\\Mdd.Mmz.Practice\\Mdd.Mmz.Practice.ConsoleApp\\Mdd.Mmz.Practice.ConsoleApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Mdd.Mmz.Practice\\Mdd.Mmz.Practice.ConsoleApp\\Mdd.Mmz.Practice.ConsoleApp.csproj",
+        "projectUniqueName": "C:\\Users\\make0ver\\source\\repos\\MddMmzPractice\\Mdd.Mmz.Practice\\Mdd.Mmz.Practice.ConsoleApp\\Mdd.Mmz.Practice.ConsoleApp.csproj",
         "projectName": "Mdd.Mmz.Practice.ConsoleApp",
-        "projectPath": "D:\\Mdd.Mmz.Practice\\Mdd.Mmz.Practice.ConsoleApp\\Mdd.Mmz.Practice.ConsoleApp.csproj",
+        "projectPath": "C:\\Users\\make0ver\\source\\repos\\MddMmzPractice\\Mdd.Mmz.Practice\\Mdd.Mmz.Practice.ConsoleApp\\Mdd.Mmz.Practice.ConsoleApp.csproj",
         "packagesPath": "C:\\Users\\make0ver\\.nuget\\packages\\",
-        "outputPath": "D:\\Mdd.Mmz.Practice\\Mdd.Mmz.Practice.ConsoleApp\\obj\\",
+        "outputPath": "C:\\Users\\make0ver\\source\\repos\\MddMmzPractice\\Mdd.Mmz.Practice\\Mdd.Mmz.Practice.ConsoleApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\make0ver\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Mdd.Mmz.Practice\\Mdd.Mmz.Practice.Core\\Mdd.Mmz.Practice.Core.csproj": {
-                "projectPath": "D:\\Mdd.Mmz.Practice\\Mdd.Mmz.Practice.Core\\Mdd.Mmz.Practice.Core.csproj"
+              "C:\\Users\\make0ver\\source\\repos\\MddMmzPractice\\Mdd.Mmz.Practice\\Mdd.Mmz.Practice.Core\\Mdd.Mmz.Practice.Core.csproj": {
+                "projectPath": "C:\\Users\\make0ver\\source\\repos\\MddMmzPractice\\Mdd.Mmz.Practice\\Mdd.Mmz.Practice.Core\\Mdd.Mmz.Practice.Core.csproj"
               },
-              "D:\\Mdd.Mmz.Practice\\Mdd.Mmz.Practice.Infrastructure\\Mdd.Mmz.Practice.Infrastructure.csproj": {
-                "projectPath": "D:\\Mdd.Mmz.Practice\\Mdd.Mmz.Practice.Infrastructure\\Mdd.Mmz.Practice.Infrastructure.csproj"
+              "C:\\Users\\make0ver\\source\\repos\\MddMmzPractice\\Mdd.Mmz.Practice\\Mdd.Mmz.Practice.Infrastructure\\Mdd.Mmz.Practice.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\make0ver\\source\\repos\\MddMmzPractice\\Mdd.Mmz.Practice\\Mdd.Mmz.Practice.Infrastructure\\Mdd.Mmz.Practice.Infrastructure.csproj"
               }
             }
           }
@@ -50,6 +50,10 @@
             "Microsoft.Data.Sqlite": {
               "target": "Package",
               "version": "[6.0.5, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             }
           },
           "imports": [
@@ -58,7 +62,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -67,18 +72,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Mdd.Mmz.Practice\\Mdd.Mmz.Practice.Core\\Mdd.Mmz.Practice.Core.csproj": {
+    "C:\\Users\\make0ver\\source\\repos\\MddMmzPractice\\Mdd.Mmz.Practice\\Mdd.Mmz.Practice.Core\\Mdd.Mmz.Practice.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Mdd.Mmz.Practice\\Mdd.Mmz.Practice.Core\\Mdd.Mmz.Practice.Core.csproj",
+        "projectUniqueName": "C:\\Users\\make0ver\\source\\repos\\MddMmzPractice\\Mdd.Mmz.Practice\\Mdd.Mmz.Practice.Core\\Mdd.Mmz.Practice.Core.csproj",
         "projectName": "Mdd.Mmz.Practice.Core",
-        "projectPath": "D:\\Mdd.Mmz.Practice\\Mdd.Mmz.Practice.Core\\Mdd.Mmz.Practice.Core.csproj",
+        "projectPath": "C:\\Users\\make0ver\\source\\repos\\MddMmzPractice\\Mdd.Mmz.Practice\\Mdd.Mmz.Practice.Core\\Mdd.Mmz.Practice.Core.csproj",
         "packagesPath": "C:\\Users\\make0ver\\.nuget\\packages\\",
-        "outputPath": "D:\\Mdd.Mmz.Practice\\Mdd.Mmz.Practice.Core\\obj\\",
+        "outputPath": "C:\\Users\\make0ver\\source\\repos\\MddMmzPractice\\Mdd.Mmz.Practice\\Mdd.Mmz.Practice.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\make0ver\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -116,6 +121,10 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             }
           },
           "imports": [
@@ -124,22 +133,23 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Mdd.Mmz.Practice\\Mdd.Mmz.Practice.Infrastructure\\Mdd.Mmz.Practice.Infrastructure.csproj": {
+    "C:\\Users\\make0ver\\source\\repos\\MddMmzPractice\\Mdd.Mmz.Practice\\Mdd.Mmz.Practice.Infrastructure\\Mdd.Mmz.Practice.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Mdd.Mmz.Practice\\Mdd.Mmz.Practice.Infrastructure\\Mdd.Mmz.Practice.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\make0ver\\source\\repos\\MddMmzPractice\\Mdd.Mmz.Practice\\Mdd.Mmz.Practice.Infrastructure\\Mdd.Mmz.Practice.Infrastructure.csproj",
         "projectName": "Mdd.Mmz.Practice.Infrastructure",
-        "projectPath": "D:\\Mdd.Mmz.Practice\\Mdd.Mmz.Practice.Infrastructure\\Mdd.Mmz.Practice.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\make0ver\\source\\repos\\MddMmzPractice\\Mdd.Mmz.Practice\\Mdd.Mmz.Practice.Infrastructure\\Mdd.Mmz.Practice.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\make0ver\\.nuget\\packages\\",
-        "outputPath": "D:\\Mdd.Mmz.Practice\\Mdd.Mmz.Practice.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\make0ver\\source\\repos\\MddMmzPractice\\Mdd.Mmz.Practice\\Mdd.Mmz.Practice.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\make0ver\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -156,8 +166,8 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "D:\\Mdd.Mmz.Practice\\Mdd.Mmz.Practice.Core\\Mdd.Mmz.Practice.Core.csproj": {
-                "projectPath": "D:\\Mdd.Mmz.Practice\\Mdd.Mmz.Practice.Core\\Mdd.Mmz.Practice.Core.csproj"
+              "C:\\Users\\make0ver\\source\\repos\\MddMmzPractice\\Mdd.Mmz.Practice\\Mdd.Mmz.Practice.Core\\Mdd.Mmz.Practice.Core.csproj": {
+                "projectPath": "C:\\Users\\make0ver\\source\\repos\\MddMmzPractice\\Mdd.Mmz.Practice\\Mdd.Mmz.Practice.Core\\Mdd.Mmz.Practice.Core.csproj"
               }
             }
           }
@@ -184,7 +194,7 @@
             },
             "Newtonsoft.Json": {
               "target": "Package",
-              "version": "[13.0.1, )"
+              "version": "[13.0.3, )"
             },
             "System.Data.DataSetExtensions": {
               "target": "Package",
@@ -197,11 +207,12 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

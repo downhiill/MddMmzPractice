@@ -11,8 +11,8 @@ namespace Mdd.Mmz.Practice.Infrastructure
 
         public string Select()
         { 
-            var sql = 
-                "SELECT id, age, phone, name, city, country " +
+            var sql =
+                "SELECT id, score, nameEvents, status, countryAndCity " +
                 "FROM " + tableName
             ;
 
@@ -22,8 +22,8 @@ namespace Mdd.Mmz.Practice.Infrastructure
 
         public string Select(int personId)
         {
-            var sql = 
-                "SELECT id, age, phone, name, city, country" +
+            var sql =
+                "SELECT id, score, nameEvents, status, countryAndCity" +
                 " FROM " + tableName +
                 " WHERE id = " + personId.ToString()
             ;
@@ -38,20 +38,18 @@ namespace Mdd.Mmz.Practice.Infrastructure
                 "INSERT INTO " + tableName +
                 "(" +
                     "id," +
-                    " age," +
-                    " phone," +
-                    " name," +
-                    " city," +
-                    " country" +
+                    " score," +
+                    " nameEvents," +
+                    " status," +
+                    " countryAndCity" +
                 ")" +
                 "VALUES" +
                 "(" +
                     "(SELECT coalesce(max(id), 0) + 1 FROM " + tableName + ")," +
-                    " " + person.Age + "," +
-                    " " + person.Phone + "," +
-                    " '" + person.Name + "'," +
-                    " '" + person.City + "'," +
-                    " '" + person.Country + "'" +
+                    " " + person.Score + "," +
+                    " '" + person.NameEvents + "'," +
+                    " '" + person.Status + "'," +
+                    " '" + person.CountryAndCity + "'" +
                 ")"
             ;
 
@@ -64,11 +62,10 @@ namespace Mdd.Mmz.Practice.Infrastructure
             var sql =
                 "UPDATE " + tableName +
                 " SET" +
-                    " age = " + person.Age + "," +
-                    " ,phone = " + person.Phone + "," +
-                    " name = '" + person.Name + "'," +
-                    " city = '" + person.City + "'," +
-                    " country = '" + person.Country + "'" +
+                    " score = " + person.Score + "," +
+                    " nameEvents = '" + person.NameEvents + "'," +
+                    " status = '" + person.Status + "'," +
+                    " countryAndCity = '" + person.CountryAndCity + "'" +
                 " WHERE " +
                     "id = " + person.Id
             ;
@@ -92,11 +89,10 @@ namespace Mdd.Mmz.Practice.Infrastructure
             var sql = "CREATE TABLE " + tableName + 
                 " (" +
                     "Id INTEGER PRIMARY KEY," +
-                    "Age INTEGER," +
-                    "Phone INTEGER," +
-                    "Name TEXT," +
-                    "City TEXT," +
-                    "Country TEXT" +
+                    "Score INTEGER," +
+                    "NameEvents TEXT," +
+                    "Status TEXT," +
+                    "CountryAndCity TEXT" +
                 ")"
             ;
 

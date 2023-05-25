@@ -13,11 +13,11 @@ namespace Mdd.Mmz.Practice.Infrastructure
     {
         public List<Person> people = new List<Person>()
         {
-            new Person() { Id = 1, Age = 15, Phone = 77546343, Name = "Вася", City = "Москва", Country = "Россия" },
-            new Person() { Id = 2, Age = 18, Phone = 77123579, Name = "Артем", City = "Краснодар", Country = "Россия" },
-            new Person() { Id = 3, Age = 25, Phone = 77132829, Name = "Лера", City = "Челябинск", Country = "Россия" },
-            new Person() { Id = 4, Age = 36, Phone = 77754731, Name = "Арина", City = "Екатеринбург", Country = "Россия" },
-            new Person() { Id = 5, Age = 34, Phone = 77241573, Name = "Леша", City = "Москва", Country = "Россия" }
+            new Person() { Id = 1, Score = 77546343, NameEvents = "Вася", Status = "Москва", CountryAndCity = "Россия" },
+            new Person() { Id = 2, Score = 77123579, NameEvents = "Артем", Status = "Краснодар", CountryAndCity = "Россия" },
+            new Person() { Id = 3, Score = 77132829, NameEvents = "Лера", Status = "Челябинск", CountryAndCity = "Россия" },
+            new Person() { Id = 4, Score = 77754731, NameEvents = "Арина", Status = "Екатеринбург", CountryAndCity = "Россия" },
+            new Person() { Id = 5, Score = 77241573, NameEvents = "Леша", Status = "Москва", CountryAndCity = "Россия" }
         };
         
 

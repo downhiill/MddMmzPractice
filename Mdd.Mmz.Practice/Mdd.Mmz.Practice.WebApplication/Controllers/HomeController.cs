@@ -4,6 +4,8 @@ using System.Diagnostics;
 
 using Mdd.Mmz.Practice.Core;
 using Mdd.Mmz.Practice.Infrastructure;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authentication;
 
 namespace Mdd.Mmz.Practice.WebApplication.Controllers
 {
@@ -21,7 +23,11 @@ namespace Mdd.Mmz.Practice.WebApplication.Controllers
             return View();
         }
 
-
+        public async Task<IActionResult> LogOut()
+        {
+            await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+            return RedirectToAction("Login","Access");
+        }
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

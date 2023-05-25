@@ -1,22 +1,24 @@
 ﻿@{
-    ViewData["Title"] = "People";
+    ViewData["Title"] = "Events";
 }
 
 <div class="text-center">
-
-    <h1 class="display-4">People</h1>
-     <button type="button" class="btn btn-dark" id ="addButton">Add</button>
+    
+    <h1 class="display-4">Events</h1>
+    @if (User.IsInRole("Admin")){
+        <button type = "button" class="btn btn-dark" id ="addButton">Add</button>
+    }
+     
     @*<button type="button" class="btn" id ="viewButton"></button>*@
     <input type="text" class="" id="searchText" placeholder="Search" aria-label="Search" name ="search" onkeyup="tableSearch()"/>   
         <table class="table table-hover" id="peopleTable">
             <thead>
                 <tr>
                     <th scope="col">Id</th>
-                    <th scope="col">Age</th>
-                    <th scope="col">Phone</th>
-                    <th scope="col">Name</th>
-                    <th scope="col">Country</th>
-                    <th scope="col">City</th>
+                    <th scope="col">Score</th>
+                    <th scope="col">Name Events</th>
+                    <th scope="col">Status</th>
+                    <th scope="col">Country and City</th>
                     <th scope="col"></th>
                 </tr>
             </thead>
@@ -30,7 +32,7 @@
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="editModalLabel">Person</h5>
+        <h5 class="modal-title" id="editModalLabel">Events</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
         <div class="modal-body">
@@ -45,25 +47,21 @@
 		        </tr>
             </table>
                 <div class="container">
+                    <label>Score</label>
                     <div class="mb-3">
-                        <label>Name</label>
-                        <input type="text" class="form-control" placeholder="Name" aria-label="Name" name ="name">
+                        <input type="text" class="form-control" placeholder="Score" aria-label="Score" name="score">
                     </div>
-                    <label>Age</label>
+                    <label>Name Events</label>
                     <div class="mb-3">
-                        <input type="text" class="form-control" placeholder="Age" aria-label="Age" name ="age">
+                        <input type="text" class="form-control" placeholder="Name Events" aria-label="Name Events" name="nameEvents">
                     </div>
-                    <label>Phone</label>
+                    <label>Status</label>
                     <div class="mb-3">
-                        <input type="text" class="form-control" placeholder="Phone" aria-label="Phone" name ="phone">
+                        <input type="text" class="form-control" placeholder="Status" aria-label="Status" name="status">
                     </div>
-                    <label>Country</label>
+                    <label>Country and City</label>
                     <div class="mb-3">
-                        <input type="text" class="form-control" placeholder="Country" aria-label="Country" name ="country">
-                    </div>
-                    <label>City</label>
-                    <div class="mb-3">
-                        <input type="text" class="form-control" placeholder="City" aria-label="City" name ="city">
+                        <input type="text" class="form-control" placeholder="Country and City" aria-label="Country and City" name="countryAndCity">
                     </div>
                 </div>                                                      
         </div>
